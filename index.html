@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: rgb(44, 37, 37);
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header nav a {
+            color: rgb(54, 53, 53);
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block;
+        }
+        .intro {
+            background-image: url('link-to-cover-image');
+            background-size: cover;
+            color: rgb(58, 55, 55);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .intro h1 {
+            font-size: 4em;
+        }
+        .intro p {
+            font-size: 1.5em;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: rgb(61, 57, 57);
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .feature {
+            display: inline-block;
+            width: 30%;
+            padding: 10px;
+        }
+        .feature img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .about img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .footer {
+            background-color: #333;
+            color: rgb(71, 57, 57);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div id="home" class="intro">
+        <h1>TaskTracker</h1>
+        <p>Your ultimate task management solution.</p>
+        <a href="link-to-deployed-app" class="button">Try TaskTracker Now</a>
+    </div>
+
+    <div id="features" class="section">
+        <h2>Features</h2>
+        <div class="feature">
+            <img src="link-to-feature-image-1" alt="Feature 1">
+            <h3>Easy Task Management</h3>
+            <p>Create, update, and manage your tasks effortlessly with our intuitive interface.</p>
+        </div>
+        <div class="feature">
+            <img src="link-to-feature-image-2" alt="Feature 2">
+            <h3>Task Prioritization</h3>
+            <p>Organize tasks by priority to focus on what matters most.</p>
+        </div>
+        <div class="feature">
+            <img src="link-to-feature-image-3" alt="Feature 3">
+            <h3>Progress Tracking</h3>
+            <p>Track your progress with visual indicators and detailed reports.</p>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About</h2>
+        <p>TaskTracker was born out of a need to efficiently manage and prioritize tasks in our busy lives. As developers, we faced challenges in organizing our work and decided to create a solution that simplifies task management. This project is part of our Holberton School portfolio and showcases our skills and dedication.</p>
+        <div>
+            <img src="link-to-profile-image" alt="Maryem Benhaida">
+            <p>Maryem Benhaida</p>
+            <p><a href="link-to-linkedin">LinkedIn</a> | <a href="link-to-github">GitHub</a> | <a href="link-to-twitter">Twitter</a></p>
+        </div>
+        <div>
+            <img src="link-to-profile-image" alt="Your Name">
+            <p>Your Name</p>
+            <p><a href="link-to-linkedin">LinkedIn</a> | <a href="link-to-github">GitHub</a> | <a href="link-to-twitter">Twitter</a></p>
+        </div>
+        <p><a href="link-to-github-repo">GitHub Repository</a></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 TaskTracker. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
